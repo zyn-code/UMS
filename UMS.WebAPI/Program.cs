@@ -39,14 +39,6 @@ builder.Services.AddControllers().AddJsonOptions(x =>
 // KeyCLoak Configuration
 builder.Services.AddMvc();
 
-//Email Configuration
-var emailConfig = builder.Configuration
-    .GetSection("EmailConfiguration")
-    .Get<EmailConfiguration>();
-builder.Services.AddSingleton(emailConfig);
-builder.Services.AddScoped<IEmailSender, EmailSender>();
-
-
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -71,6 +63,14 @@ builder.Services.AddAuthentication(options =>
         }
     };
 });
+
+
+//Email Configuration
+var emailConfig = builder.Configuration
+    .GetSection("EmailConfiguration")
+    .Get<EmailConfiguration>();
+builder.Services.AddSingleton(emailConfig);
+builder.Services.AddScoped<IEmailSender, EmailSender>();
 
 
 var app = builder.Build();

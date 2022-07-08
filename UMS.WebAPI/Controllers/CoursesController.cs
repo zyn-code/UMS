@@ -60,10 +60,11 @@ public class CoursesController : ControllerBase
             CourseId = regToCourse.CourseId
         };
         
-        await _mediator.Send(new InsertTeacherPerCourseCommand(tPerCourse));
+        //await _mediator.Send(new InsertTeacherPerCourseCommand(tPerCourse));
         SessionTime sessionT = new SessionTime() { StartTime = regToCourse.StartTime, EndTime = regToCourse.EndTime};
-        await _mediator.Send(new InsertSessionTimeCommand(sessionT));
-        return Ok(await _mediator.Send(new InsertTeacherPerCoursePerSessionCommand(tPerCourse,sessionT)));
+        //await _mediator.Send(new InsertSessionTimeCommand(sessionT));
+        //return Ok(await _mediator.Send(new InsertTeacherPerCoursePerSessionCommand(tPerCourse,sessionT)));
+        return Ok(await _mediator.Send(new RegisterTeacherToCourseCommand(tPerCourse,sessionT)));
     }
 
     [HttpPost("SendEmail")]
