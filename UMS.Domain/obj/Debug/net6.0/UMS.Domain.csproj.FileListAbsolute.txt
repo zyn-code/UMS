@@ -1,0 +1,13 @@
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\bin\Debug\net6.0\UMS.Domain.deps.json
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\bin\Debug\net6.0\UMS.Domain.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\bin\Debug\net6.0\UMS.Domain.pdb
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\obj\Debug\net6.0\UMS.Domain.csproj.AssemblyReference.cache
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\obj\Debug\net6.0\UMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\obj\Debug\net6.0\UMS.Domain.AssemblyInfoInputs.cache
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\obj\Debug\net6.0\UMS.Domain.AssemblyInfo.cs
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\obj\Debug\net6.0\UMS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\obj\Debug\net6.0\UMS.Domain.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\obj\Debug\net6.0\refint\UMS.Domain.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\obj\Debug\net6.0\UMS.Domain.pdb
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\obj\Debug\net6.0\ref\UMS.Domain.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.Domain\obj\Debug\net6.0\EFCoreNpgsqlNodaTime.cs

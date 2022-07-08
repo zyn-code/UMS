@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cwC/bXtyyPpQU506AREy09jRJAeDJpi33j/i5vzIYbY=",
+  "Source": "UMS.WebAPI",
+  "BasePath": "_content/UMS.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

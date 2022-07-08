@@ -1,0 +1,12 @@
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\EmailServiceTools\bin\Debug\net6.0\EmailServiceTools.deps.json
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\EmailServiceTools\bin\Debug\net6.0\EmailServiceTools.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\EmailServiceTools\bin\Debug\net6.0\EmailServiceTools.pdb
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\EmailServiceTools\obj\Debug\net6.0\EmailServiceTools.csproj.AssemblyReference.cache
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\EmailServiceTools\obj\Debug\net6.0\EmailServiceTools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\EmailServiceTools\obj\Debug\net6.0\EmailServiceTools.AssemblyInfoInputs.cache
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\EmailServiceTools\obj\Debug\net6.0\EmailServiceTools.AssemblyInfo.cs
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\EmailServiceTools\obj\Debug\net6.0\EmailServiceTools.csproj.CoreCompileInputs.cache
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\EmailServiceTools\obj\Debug\net6.0\EmailServiceTools.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\EmailServiceTools\obj\Debug\net6.0\refint\EmailServiceTools.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\EmailServiceTools\obj\Debug\net6.0\EmailServiceTools.pdb
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\EmailServiceTools\obj\Debug\net6.0\ref\EmailServiceTools.dll
