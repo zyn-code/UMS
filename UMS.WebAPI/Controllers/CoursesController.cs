@@ -3,6 +3,7 @@ using EmailServiceTools;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OData.Query;
 using Microsoft.EntityFrameworkCore;
 using NodaTime;
 using NpgsqlTypes;
@@ -36,6 +37,7 @@ public class CoursesController : ControllerBase
     
     // GET
     [HttpGet("GetCourses")]
+    [EnableQuery]
     public async Task<IActionResult> GetCourse()
     {
         //NpgsqlRange<LocalDate> range = default;

@@ -66,3 +66,13 @@ C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\UMS.In
 C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\EmailServiceTools.pdb
 C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\UMS.Infrastructure.Abstraction.pdb
 C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\UMS.Infrastructure.pdb
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Microsoft.AspNet.OData.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.OData.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Microsoft.OData.Core.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Microsoft.OData.Edm.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Microsoft.Spatial.dll

@@ -3,11 +3,16 @@ using System.Text.Json.Serialization;
 using AutoMapper;
 using EmailServiceTools;
 using MediatR;
+using Microsoft.AspNet.OData.Builder;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OData;
+using Microsoft.OData.Edm;
 using UMS.Application.Entities.Course.Commands.InsertCourse;
 using UMS.Application.Entities.Course.Queries.GetCourses;
 using UMS.Infrastructure.Abstraction.EmailSenderInterface;
 using UMS.Infrastructure.EmailService;
+using UMS.Persistence;
 using UMS.WebAPI;
 using UMS.WebAPI.DTO;
 using UMS.WebAPI.Profiles;
@@ -72,6 +77,9 @@ var emailConfig = builder.Configuration
 builder.Services.AddSingleton(emailConfig);
 builder.Services.AddScoped<IEmailSender, EmailSender>();
 
+//OData Configuration
+
+builder.Services.AddControllers().AddOData(opt => opt.Select().Filter().Expand().OrderBy().SetMaxTop(null).Count());
 
 var app = builder.Build();
 

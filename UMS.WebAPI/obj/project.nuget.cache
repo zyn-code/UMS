@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/MQaJAozodJbhkylC5tGUvt1KCglYtGpFXxATDJCYkfI8mYLUKEhY+/jO6VmU2pDpgdZeCO1xlknRcCsYel8Kg==",
+  "dgSpecHash": "9khPsWmlQ2D4/lb6OL3uH28EAzx/oXa5BkcMOvSsu+fFOQqmNtDPOcDZRhEOPECqFIO3jUFdvdlhApKEPOBJ+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.WebAPI\\UMS.WebAPI.csproj",
   "expectedPackageFiles": [
@@ -11,11 +11,17 @@
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.aspnet.odata\\7.5.15\\microsoft.aspnet.odata.7.5.15.nupkg.sha512",
+    "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.2\\microsoft.aspnet.webapi.client.5.2.2.nupkg.sha512",
+    "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.2\\microsoft.aspnet.webapi.core.5.2.2.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.6\\microsoft.aspnetcore.authentication.jwtbearer.6.0.6.nupkg.sha512",
+    "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.aspnetcore.odata\\8.0.10\\microsoft.aspnetcore.odata.8.0.10.nupkg.sha512",
+    "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.6\\microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.6\\microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",
+    "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.6\\microsoft.entityframeworkcore.inmemory.6.0.6.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.6\\microsoft.entityframeworkcore.relational.6.0.6.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
@@ -39,7 +45,11 @@
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
+    "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.odata.core\\7.10.0\\microsoft.odata.core.7.10.0.nupkg.sha512",
+    "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.odata.edm\\7.10.0\\microsoft.odata.edm.7.10.0.nupkg.sha512",
+    "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.odata.modelbuilder\\1.0.8\\microsoft.odata.modelbuilder.1.0.8.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\microsoft.spatial\\7.10.0\\microsoft.spatial.7.10.0.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\mimekit\\3.2.0\\mimekit.3.2.0.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\netcore.mailkit\\2.1.0\\netcore.mailkit.2.1.0.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\newtonsoft.json\\7.0.1\\newtonsoft.json.7.0.1.nupkg.sha512",
@@ -54,6 +64,7 @@
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\system.formats.asn1\\6.0.0\\system.formats.asn1.6.0.0.nupkg.sha512",
     "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
@@ -70,6 +81,36 @@
       "warningLevel": 1,
       "message": "Package 'KeyWin 2.8.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "KeyWin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.OData 7.5.15' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.OData",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Client 5.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Client",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Core",
       "targetGraphs": [
         "net6.0"
       ]
