@@ -503,10 +503,6 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
-            "MailKit": {
-              "target": "Package",
-              "version": "[3.3.0, )"
-            },
             "MediatR": {
               "target": "Package",
               "version": "[10.0.1, )"
@@ -526,10 +522,6 @@
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[6.0.6, )"
-            },
-            "MimeKit": {
-              "target": "Package",
-              "version": "[3.3.0, )"
             },
             "Serilog": {
               "target": "Package",
