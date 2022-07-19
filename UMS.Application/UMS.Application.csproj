@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+      <PackageReference Include="Microsoft.AspNet.WebApi.OData" Version="5.7.0" />
     </ItemGroup>
 
     <ItemGroup>
@@ -15,10 +16,6 @@
       <ProjectReference Include="..\UMS.Domain\UMS.Domain.csproj" />
       <ProjectReference Include="..\UMS.Infrastructure.Abstraction\UMS.Infrastructure.Abstraction.csproj" />
       <ProjectReference Include="..\UMS.Persistence\UMS.Persistence.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Entities\Course\Commands" />
     </ItemGroup>
 
 </Project>
