@@ -1,17 +1,12 @@
+using System.Web.Http.OData;
 using AutoMapper;
 using EmailServiceTools;
 using MediatR;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.OData.Query;
-using Microsoft.EntityFrameworkCore;
-using NodaTime;
-using NpgsqlTypes;
+using UMS.Application.ClassEnrollment.Commands;
 using UMS.Application.EmailSending;
 using UMS.Application.Entities.Course.Commands.InsertCourse;
 using UMS.Application.Entities.Course.Queries.GetCourses;
-using UMS.Application.Entities.SessionTime.Commands;
-using UMS.Application.Entities.TeacherPerCourse.Commands;
 using UMS.Application.Entities.TeacherPerCoursePerSession.Commands;
 using UMS.Domain.Models;
 using UMS.Infrastructure.Abstraction.EmailSenderInterface;
@@ -21,7 +16,7 @@ namespace UMS.WebAPI.Controllers;
 
 [ApiController]
 //[Authorize]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class CoursesController : ControllerBase
 {
     private readonly IMediator _mediator;
@@ -75,5 +70,11 @@ public class CoursesController : ControllerBase
         EmailAddress emailAddress = new EmailAddress() {Address = address, DisplayName = displayName};
         EmailSend emailSend = new EmailSend(_emailSender);
         return Ok(emailSend.SendEmail(emailAddress,subject,content));
+    }
+    
+    [HttpPost("EnrollCourse")]
+    public async Task<IActionResult> EnrollCourse([FromBody] EnrollClass enrollClass)
+    {
+        return Ok(await _mediator.Send(new EnrollClassCommand(enrollClass.ClassName, enrollClass.TeacherName,enrollClass.StudentId)));
     }
 }
