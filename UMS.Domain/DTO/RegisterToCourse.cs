@@ -5,7 +5,7 @@ namespace UMS.WebAPI.DTO;
 public class RegisterToCourse
 {
     [Required(ErrorMessage = "Teacher name is required!")]
-    public string TeacherName { get; set; }
+    public int TeacherId { get; set; }
     
     [Required(ErrorMessage = "Course name is required!")]
     public string CourseName { get; set; }

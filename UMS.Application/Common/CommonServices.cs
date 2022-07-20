@@ -1,4 +1,4 @@
-using UMS.Domain.Models;
+using UMS.Application.Exceptions;
 using UMS.Persistence;
 
 namespace UMS.Application.Common;
@@ -15,12 +15,16 @@ public class CommonServices : ICommonServices
     public string? GetRole(int userId)
     {
         string? role = _context.Users.Where(u => u.Id == userId).Select(r => r.Role.Name).FirstOrDefault()?.ToString();
-        Console.WriteLine("Role : : : : : ");
+        if (role == null)
+            throw new UserNotFoundException("No user with the specified ID");
         return role;
     }
 
-    public int CheckCourseExists(string courseName)
+    public int? CheckCourseExists(string courseName)
     {
-        return (int) _context.Courses.Where(c => c.Name == courseName).Select(c => c.Id).FirstOrDefault();
+        var courseId = (int?)_context.Courses.Where(c => c.Name == courseName).Select(c => c.Id).FirstOrDefault();
+        if (courseId == 0)
+            throw new CourseNotFoundException("This course does not exist!");
+        return courseId;
     }
 }
