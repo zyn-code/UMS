@@ -4,13 +4,12 @@ using EmailServiceTools;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using UMS.Application.ClassEnrollment.Commands;
-using UMS.Application.EmailSending;
 using UMS.Application.Entities.Course.Commands.InsertCourse;
 using UMS.Application.Entities.Course.Queries.GetCourses;
 using UMS.Application.Entities.TeacherPerCoursePerSession.Commands;
 using UMS.Domain.Models;
-using UMS.Infrastructure.Abstraction.EmailSenderInterface;
 using UMS.WebAPI.DTO;
+using UMS.WebAPI.Filters;
 
 namespace UMS.WebAPI.Controllers;
 
@@ -21,13 +20,11 @@ public class CoursesController : ControllerBase
 {
     private readonly IMediator _mediator;
     private readonly IMapper _mapper;
-    private readonly IEmailSender _emailSender;
     
-    public CoursesController(IMediator mediator, IMapper mapper, IEmailSender emailSender)
+    public CoursesController(IMediator mediator, IMapper mapper)
     {
         _mediator = mediator;
         _mapper = mapper;
-        _emailSender = emailSender;
     }
     
     // GET
@@ -42,10 +39,11 @@ public class CoursesController : ControllerBase
     
     //POST
     [HttpPost("AddCourse")]
-    public async Task<IActionResult> InsertCourse([FromHeader] string role,[FromBody] CreateCourse c)
+    [TypeFilter(typeof(UserAuthorizationFilter))]
+    public async Task<IActionResult> InsertCourse([FromHeader] int userId,[FromBody] CreateCourse c)
     {
         Course course = _mapper.Map<Course>(c);
-        return Ok(await _mediator.Send(new InsertCourseCommand(course)));
+        return Ok(await _mediator.Send(new InsertCourseCommand(course,userId)));
     }
     
     // Teacher to Course Registration
@@ -64,6 +62,7 @@ public class CoursesController : ControllerBase
         return Ok(await _mediator.Send(new RegisterTeacherToCourseCommand(tPerCourse,sessionT)));
     }
 
+    /*
     [HttpPost("SendEmail")]
     public async Task<IActionResult> SendEmailTo([FromHeader] string address, string displayName, string subject, string content)
     {
@@ -71,6 +70,7 @@ public class CoursesController : ControllerBase
         EmailSend emailSend = new EmailSend(_emailSender);
         return Ok(emailSend.SendEmail(emailAddress,subject,content));
     }
+    */
     
     [HttpPost("EnrollCourse")]
     public async Task<IActionResult> EnrollCourse([FromBody] EnrollClass enrollClass)
