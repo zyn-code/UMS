@@ -523,25 +523,25 @@
               "target": "Package",
               "version": "[6.0.6, )"
             },
-            "Serilog": {
-              "target": "Package",
-              "version": "[2.11.0, )"
-            },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
-            "Serilog.Extensions.Hosting": {
+            "Serilog.Enrichers.Environment": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[2.2.0, )"
             },
-            "Serilog.Settings.Configuration": {
+            "Serilog.Exceptions": {
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[8.3.0, )"
             },
-            "Serilog.Sinks.MSSqlServer": {
+            "Serilog.Sinks.Debug": {
               "target": "Package",
-              "version": "[5.7.1, )"
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.4.1, )"
             },
             "Serilog.Sinks.Postgresql": {
               "target": "Package",
