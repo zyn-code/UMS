@@ -9,12 +9,16 @@ using Microsoft.AspNetCore.OData;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
+using Microsoft.OpenApi.Models;
 using Serilog;
 using Serilog.Exceptions;
 using Serilog.Sinks.Elasticsearch;
 using UMS.Application.Common;
 using UMS.Application.Entities.Course.Commands.InsertCourse;
 using UMS.Domain.Models;
+using UMS.Infrastructure.Abstraction.EmailServiceInterface;
+using UMS.Infrastructure.EmailSendingService;
+using UMS.Infrastructure.Settings;
 using UMS.Persistence;
 using UMS.WebAPI;
 //using ODataConventionModelBuilder = Microsoft.OData.Builder.ODataConventionModelBuilder;
@@ -88,10 +92,8 @@ builder.Services.AddAuthentication(options =>
 });
 
 //Email Configuration
-var emailConfig = builder.Configuration
-    .GetSection("EmailConfiguration")
-    .Get<EmailConfiguration>();
-builder.Services.AddSingleton(emailConfig);
+builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
+builder.Services.AddTransient<IEEmailService,MailingService>();
 
 
 //OData Configuration
@@ -101,12 +103,15 @@ builder.Services.AddControllers().AddOData(opt => opt.AddRouteComponents("v1", G
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new() { Title = "ODataTutorial", Version = "v1" });
+    //SignalR
+    c.AddSignalRSwaggerGen();
 });
 
 //connection string 
 builder.Services.AddDbContext<umsContext>(
     options => options.UseNpgsql("Host=localhost;Port=5432;Database=ums;Username=postgres;Password=123456")
 );
+
 
 
 

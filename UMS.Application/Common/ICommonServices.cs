@@ -7,4 +7,5 @@ public interface ICommonServices
     public string? GetRole(int userId);
     public int? CheckCourseExists(string courseName);
     public int GetClassId(EnrollClass enrollmentInfo);
+    public string GetUserEmail(int userId);
 }

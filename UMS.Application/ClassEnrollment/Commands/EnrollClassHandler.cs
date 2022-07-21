@@ -1,5 +1,6 @@
 using MediatR;
 using UMS.Application.Common;
+using UMS.Infrastructure.Abstraction.EmailServiceInterface;
 using UMS.Persistence;
 
 namespace UMS.Application.ClassEnrollment.Commands;
@@ -8,11 +9,13 @@ public class EnrollClassHandler : IRequestHandler<EnrollClassCommand, string>
 {
     private readonly umsContext _context;
     private readonly ICommonServices _common;
+    private readonly IEEmailService _emailSender;
 
-    public EnrollClassHandler(ICommonServices common, umsContext context)
+    public EnrollClassHandler(ICommonServices common, umsContext context, IEEmailService emailSender)
     {
         _context = context;
         _common = common;
+        _emailSender = emailSender;
     }
     public async Task<string> Handle(EnrollClassCommand request, CancellationToken cancellationToken)
     {
@@ -24,6 +27,11 @@ public class EnrollClassHandler : IRequestHandler<EnrollClassCommand, string>
             ClassId = classId
         });
         _context.SaveChanges();
+        var emailAddress = _common.GetUserEmail(request.EnrollmentInfo.StudentId);
+        string emailBody = "Dear student,\tKindly note note that you have been successfully enrolled to the "
+            + request.EnrollmentInfo.ClassName + " course.\tBest";
+        await _emailSender.SendEmailAsync(emailAddress, "Course Enrollment", emailBody);
         return "Enrolled successfully!";
     }
+    
 }

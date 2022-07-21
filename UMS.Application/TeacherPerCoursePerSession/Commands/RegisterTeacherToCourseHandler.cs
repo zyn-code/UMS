@@ -11,7 +11,6 @@ public class RegisterTeacherToCourseHandler :IRequestHandler<RegisterTeacherToCo
 {
     private readonly umsContext _context;
     private readonly ICommonServices _common;
-
     public RegisterTeacherToCourseHandler(ICommonServices common, umsContext context)
     {
         _context = context;

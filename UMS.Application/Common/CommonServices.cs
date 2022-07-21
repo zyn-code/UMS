@@ -56,4 +56,12 @@ public class CommonServices : ICommonServices
             throw new CourseNotFoundException(enrollmentInfo.TeacherName + " doesn't give this course in the specified time!");
         return tPId;
     }
+    
+    public string GetUserEmail(int userId)
+    {
+        var userEmail = _context.Users.Where(u=>u.Id==userId).Select(u=>u.Email).SingleOrDefault();
+        if (userEmail is null)
+            throw new UserNotFoundException("No user with the specified id!");
+        return userEmail;
+    }
 }

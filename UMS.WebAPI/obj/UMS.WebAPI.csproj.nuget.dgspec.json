@@ -265,6 +265,10 @@
               "target": "Package",
               "version": "[5.7.0, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "NETCore.MailKit": {
               "target": "Package",
               "version": "[2.1.0, )"
@@ -329,9 +333,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
             "Microsoft.AspNet.WebApi.OData": {
               "target": "Package",
               "version": "[5.7.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.3.0, )"
             },
             "NETCore.MailKit": {
               "target": "Package",
@@ -503,6 +515,10 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Keycloak.Net": {
+              "target": "Package",
+              "version": "[1.0.18, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[10.0.1, )"
@@ -546,6 +562,10 @@
             "Serilog.Sinks.Postgresql": {
               "target": "Package",
               "version": "[2.3.0, )"
+            },
+            "SignalRSwaggerGen": {
+              "target": "Package",
+              "version": "[3.2.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

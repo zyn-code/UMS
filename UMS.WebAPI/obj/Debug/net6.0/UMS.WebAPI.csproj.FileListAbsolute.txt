@@ -122,3 +122,7 @@ C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Serilo
 C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Serilog.Exceptions.dll
 C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Serilog.Formatting.Elasticsearch.dll
 C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Serilog.Sinks.Elasticsearch.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\SignalRSwaggerGen.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Flurl.Http.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Flurl.dll
+C:\Users\PC.LAPTOP-C29OTAM2\RiderProjects\UMS\UMS.WebAPI\bin\Debug\net6.0\Keycloak.Net.dll
