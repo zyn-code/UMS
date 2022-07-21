@@ -39,7 +39,7 @@ public class CoursesController : ControllerBase
     
     //POST
     [HttpPost("AddCourse")]
-    [TypeFilter(typeof(UserAuthorizationFilter))]
+    //[TypeFilter(typeof(UserAuthorizationFilter))]
     public async Task<IActionResult> InsertCourse([FromHeader] int userId,[FromBody] CreateCourse c)
     {
         Course course = _mapper.Map<Course>(c);
@@ -66,6 +66,6 @@ public class CoursesController : ControllerBase
     [HttpPost("EnrollCourse")]
     public async Task<IActionResult> EnrollCourse([FromBody] EnrollClass enrollClass)
     {
-        return Ok(await _mediator.Send(new EnrollClassCommand(enrollClass.ClassName, enrollClass.TeacherName,enrollClass.StudentId)));
+        return Ok(await _mediator.Send(new EnrollClassCommand(enrollClass)));
     }
 }

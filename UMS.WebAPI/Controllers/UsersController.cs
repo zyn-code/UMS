@@ -1,23 +1,28 @@
-using Microsoft.AspNetCore.OData.Query;
-using Microsoft.AspNetCore.OData.Routing.Controllers;
-using UMS.Domain.Models;
-using UMS.Persistence;
+using AutoMapper;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using UMS.Application.ClassEnrollment.Commands;
+using UMS.WebAPI.DTO;
 
 namespace UMS.WebAPI.Controllers;
 
-
-public class UsersController : ODataController
+[ApiController]
+[Route("api/[controller]")]
+public class UsersController : ControllerBase
 {
-    private readonly umsContext _context;
-
-    public UsersController(umsContext context)
-    {
-        _context = context;
-    }
-    
-    [EnableQuery]
-    public IQueryable<User> GetUsers()
-    {
-        return _context.Users.AsQueryable();
-    }
+   private readonly IMediator _mediator;
+       private readonly IMapper _mapper;
+       
+       public UsersController(IMediator mediator, IMapper mapper)
+       {
+           _mediator = mediator;
+           _mapper = mapper;
+       }
+       
+       //POST
+       [HttpPost("EnrollCourse")]
+       public async Task<IActionResult> EnrollCourse([FromBody] EnrollClass enrollClass)
+       {
+           return Ok(await _mediator.Send(new EnrollClassCommand(enrollClass)));
+       }
 }

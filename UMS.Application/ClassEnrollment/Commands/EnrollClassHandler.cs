@@ -1,24 +1,29 @@
 using MediatR;
+using UMS.Application.Common;
 using UMS.Persistence;
 
 namespace UMS.Application.ClassEnrollment.Commands;
 
 public class EnrollClassHandler : IRequestHandler<EnrollClassCommand, string>
 {
-    private umsContext _context = new umsContext();
+    private readonly umsContext _context;
+    private readonly ICommonServices _common;
+
+    public EnrollClassHandler(ICommonServices common, umsContext context)
+    {
+        _context = context;
+        _common = common;
+    }
     public async Task<string> Handle(EnrollClassCommand request, CancellationToken cancellationToken)
     {
-        int teacherPerCourseId = (int)_context.TeacherPerCourses.Where(t=>t.Teacher.Name==request.TeacherName
-                                & t.Course.Name==request.CourseName)
-                                .Select(t=>t.Id).FirstOrDefault();
-        Console.WriteLine("Course ID : " + teacherPerCourseId);
+        var classId = _common.GetClassId(request.EnrollmentInfo);
+        
         var res = await _context.AddAsync(new Domain.Models.ClassEnrollment()
         {
-            StudentId = request.StudentId,
-            ClassId = teacherPerCourseId
+            StudentId = request.EnrollmentInfo.StudentId,
+            ClassId = classId
         });
         _context.SaveChanges();
         return "Enrolled successfully!";
-        throw new NotImplementedException();
     }
 }
