@@ -1,3 +1,4 @@
+using NpgsqlTypes;
 using UMS.Application.Exceptions;
 using UMS.Persistence;
 using UMS.WebAPI.DTO;
@@ -63,5 +64,20 @@ public class CommonServices : ICommonServices
         if (userEmail is null)
             throw new UserNotFoundException("No user with the specified id!");
         return userEmail;
+    }
+
+    public NpgsqlRange<DateOnly>? GetCourseDateRange(string courseName)
+    {
+        var dateRange= _context.Courses.Where(c => c.Name == courseName).Select(c => c.EnrolmentDateRange).SingleOrDefault();
+        if (dateRange is null)
+            throw new CourseNotFoundException("This course does not exist!");
+        return dateRange;
+    }
+    
+    public bool CheckCourseCapacity(string courseName)
+    {
+        var count= _context.ClassEnrollments.Count(c => c.Class.Course.Name == courseName);
+        var courseCapacity = _context.Courses.Where(c => c.Name == courseName).Select(c => c.MaxStudentsNumber).SingleOrDefault();
+        return courseCapacity > count ? true : false;
     }
 }

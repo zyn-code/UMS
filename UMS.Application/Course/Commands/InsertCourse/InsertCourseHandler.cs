@@ -11,7 +11,6 @@ public class InsertCourseHandler : MediatR.IRequestHandler<InsertCourseCommand, 
     {   
         //request.course.EnrolmentDateRange = _context.Courses.First().EnrolmentDateRange;
         string? role = _context.Users.Where(u => u.Id == request.UserID).Select(r => r.Role.Name).FirstOrDefault()?.ToString();
-        Console.WriteLine("Role : : : : : " + role);
         if (role == "Admin")
         {
             var res = _context.Courses.AddAsync(request.Course);

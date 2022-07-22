@@ -102,7 +102,7 @@ builder.Services.AddControllers().AddOData(opt => opt.AddRouteComponents("v1", G
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new() { Title = "ODataTutorial", Version = "v1" });
+    c.SwaggerDoc("v1", new() { Title = "UMS", Version = "v1" });
     //SignalR
     c.AddSignalRSwaggerGen();
 });

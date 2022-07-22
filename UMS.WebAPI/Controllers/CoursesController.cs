@@ -1,6 +1,7 @@
 using System.Web.Http.OData;
 using AutoMapper;
-using EmailServiceTools;
+using Keycloak.Net;
+using Keycloak.Net.Models.Users;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using UMS.Application.ClassEnrollment.Commands;
@@ -9,7 +10,7 @@ using UMS.Application.Entities.Course.Queries.GetCourses;
 using UMS.Application.Entities.TeacherPerCoursePerSession.Commands;
 using UMS.Domain.Models;
 using UMS.WebAPI.DTO;
-using UMS.WebAPI.Filters;
+using User = Keycloak.Net.Models.Users.User;
 
 namespace UMS.WebAPI.Controllers;
 

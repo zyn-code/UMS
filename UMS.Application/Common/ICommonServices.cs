@@ -1,3 +1,4 @@
+using NpgsqlTypes;
 using UMS.WebAPI.DTO;
 
 namespace UMS.Application.Common;
@@ -8,4 +9,6 @@ public interface ICommonServices
     public int? CheckCourseExists(string courseName);
     public int GetClassId(EnrollClass enrollmentInfo);
     public string GetUserEmail(int userId);
+    public NpgsqlRange<DateOnly>? GetCourseDateRange(string courseName);
+    public bool CheckCourseCapacity(string courseName);
 }
