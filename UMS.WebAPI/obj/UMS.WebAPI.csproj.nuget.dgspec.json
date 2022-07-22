@@ -1,112 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.WebAPI\\UMS.WebAPI.csproj": {}
+    "C:\\Users\\Ziad\\Ums\\UMS.WebAPI\\UMS.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\EmailServiceTools\\EmailServiceTools.csproj": {
+    "C:\\Users\\Ziad\\Ums\\UMS.Application\\UMS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\EmailServiceTools\\EmailServiceTools.csproj",
-        "projectName": "EmailServiceTools",
-        "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\EmailServiceTools\\EmailServiceTools.csproj",
-        "packagesPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\EmailServiceTools\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\PC.LAPTOP-C29OTAM2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.AspNet.WebApi.OData": {
-              "target": "Package",
-              "version": "[5.7.0, )"
-            },
-            "MimeKit": {
-              "target": "Package",
-              "version": "[3.2.0, )"
-            },
-            "NETCore.MailKit": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Application\\UMS.Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Application\\UMS.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Ziad\\Ums\\UMS.Application\\UMS.Application.csproj",
         "projectName": "UMS.Application",
-        "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Application\\UMS.Application.csproj",
-        "packagesPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Application\\obj\\",
+        "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Application\\UMS.Application.csproj",
+        "packagesPath": "C:\\Users\\Ziad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ziad\\Ums\\UMS.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC.LAPTOP-C29OTAM2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Ziad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\EmailServiceTools\\EmailServiceTools.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\EmailServiceTools\\EmailServiceTools.csproj"
+              "C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj"
               },
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj"
+              "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj"
               },
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj"
+              "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj"
               },
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Persistence\\UMS.Persistence.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Persistence\\UMS.Persistence.csproj"
+              "C:\\Users\\Ziad\\Ums\\UMS.Persistence\\UMS.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Persistence\\UMS.Persistence.csproj"
               }
             }
           }
@@ -149,24 +79,22 @@
         }
       }
     },
-    "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj": {
+    "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj",
         "projectName": "UMS.Domain",
-        "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj",
-        "packagesPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj",
+        "packagesPath": "C:\\Users\\Ziad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ziad\\Ums\\UMS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC.LAPTOP-C29OTAM2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Ziad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -217,32 +145,30 @@
         }
       }
     },
-    "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj": {
+    "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj",
+        "projectUniqueName": "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj",
         "projectName": "UMS.Infrastructure.Abstraction",
-        "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj",
-        "packagesPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure.Abstraction\\obj\\",
+        "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\Ziad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure.Abstraction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC.LAPTOP-C29OTAM2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Ziad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\EmailServiceTools\\EmailServiceTools.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\EmailServiceTools\\EmailServiceTools.csproj"
+              "C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj"
               }
             }
           }
@@ -293,32 +219,30 @@
         }
       }
     },
-    "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure\\UMS.Infrastructure.csproj": {
+    "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure\\UMS.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure\\UMS.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure\\UMS.Infrastructure.csproj",
         "projectName": "UMS.Infrastructure",
-        "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure\\UMS.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure\\UMS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Ziad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC.LAPTOP-C29OTAM2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Ziad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj"
+              "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj"
               }
             }
           }
@@ -369,32 +293,30 @@
         }
       }
     },
-    "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Persistence\\UMS.Persistence.csproj": {
+    "C:\\Users\\Ziad\\Ums\\UMS.Persistence\\UMS.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Persistence\\UMS.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Ziad\\Ums\\UMS.Persistence\\UMS.Persistence.csproj",
         "projectName": "UMS.Persistence",
-        "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Persistence\\UMS.Persistence.csproj",
-        "packagesPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Persistence\\UMS.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Ziad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ziad\\Ums\\UMS.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC.LAPTOP-C29OTAM2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Ziad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj"
+              "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj"
               }
             }
           }
@@ -459,44 +381,42 @@
         }
       }
     },
-    "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.WebAPI\\UMS.WebAPI.csproj": {
+    "C:\\Users\\Ziad\\Ums\\UMS.WebAPI\\UMS.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.WebAPI\\UMS.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Ziad\\Ums\\UMS.WebAPI\\UMS.WebAPI.csproj",
         "projectName": "UMS.WebAPI",
-        "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.WebAPI\\UMS.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.WebAPI\\UMS.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Ziad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ziad\\Ums\\UMS.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC.LAPTOP-C29OTAM2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Ziad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\EmailServiceTools\\EmailServiceTools.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\EmailServiceTools\\EmailServiceTools.csproj"
+              "C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj"
               },
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Application\\UMS.Application.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Application\\UMS.Application.csproj"
+              "C:\\Users\\Ziad\\Ums\\UMS.Application\\UMS.Application.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Application\\UMS.Application.csproj"
               },
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj"
+              "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj"
               },
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj"
+              "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj"
               },
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure\\UMS.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure\\UMS.Infrastructure.csproj"
+              "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure\\UMS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure\\UMS.Infrastructure.csproj"
               }
             }
           }

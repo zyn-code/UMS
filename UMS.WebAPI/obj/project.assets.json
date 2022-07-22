@@ -2172,26 +2172,11 @@
           "ref/netstandard1.2/System.Threading.Timer.dll": {}
         }
       },
-      "EmailServiceTools/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.AspNet.WebApi.OData": "5.7.0",
-          "MimeKit": "3.2.0",
-          "NETCore.MailKit": "2.1.0"
-        },
-        "compile": {
-          "bin/placeholder/EmailServiceTools.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/EmailServiceTools.dll": {}
-        }
-      },
       "UMS.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "EmailServiceTools": "1.0.0",
+          "C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "Microsoft.AspNet.WebApi.OData": "5.7.0",
           "UMS.Domain": "1.0.0",
@@ -2241,7 +2226,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "EmailServiceTools": "1.0.0",
+          "C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj": "1.0.0",
           "KeyWin": "2.8.0",
           "Microsoft.AspNet.WebApi.OData": "5.7.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
@@ -6691,11 +6676,6 @@
         "system.threading.timer.nuspec"
       ]
     },
-    "EmailServiceTools/1.0.0": {
-      "type": "project",
-      "path": "../EmailServiceTools/EmailServiceTools.csproj",
-      "msbuildProject": "../EmailServiceTools/EmailServiceTools.csproj"
-    },
     "UMS.Application/1.0.0": {
       "type": "project",
       "path": "../UMS.Application/UMS.Application.csproj",
@@ -6725,7 +6705,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
-      "EmailServiceTools >= 1.0.0",
+      "C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj",
       "Keycloak.Net >= 1.0.18",
       "MediatR >= 10.0.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.6",
@@ -6747,46 +6727,44 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\": {}
+    "C:\\Users\\Ziad\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.WebAPI\\UMS.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Ziad\\Ums\\UMS.WebAPI\\UMS.WebAPI.csproj",
       "projectName": "UMS.WebAPI",
-      "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.WebAPI\\UMS.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.WebAPI\\UMS.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\Ziad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ziad\\Ums\\UMS.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC.LAPTOP-C29OTAM2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Ziad\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\EmailServiceTools\\EmailServiceTools.csproj": {
-              "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\EmailServiceTools\\EmailServiceTools.csproj"
+            "C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj": {
+              "projectPath": "C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj"
             },
-            "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Application\\UMS.Application.csproj": {
-              "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Application\\UMS.Application.csproj"
+            "C:\\Users\\Ziad\\Ums\\UMS.Application\\UMS.Application.csproj": {
+              "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Application\\UMS.Application.csproj"
             },
-            "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj": {
-              "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj"
+            "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj": {
+              "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj"
             },
-            "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj": {
-              "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj"
+            "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj": {
+              "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure.Abstraction\\UMS.Infrastructure.Abstraction.csproj"
             },
-            "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure\\UMS.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Infrastructure\\UMS.Infrastructure.csproj"
+            "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure\\UMS.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Infrastructure\\UMS.Infrastructure.csproj"
             }
           }
         }
@@ -6885,6 +6863,15 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Ziad\\Ums\\EmailServiceTools\\EmailServiceTools.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
