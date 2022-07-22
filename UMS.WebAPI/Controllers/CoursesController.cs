@@ -4,6 +4,7 @@ using Keycloak.Net;
 using Keycloak.Net.Models.Users;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OData.Query;
 using UMS.Application.ClassEnrollment.Commands;
 using UMS.Application.Entities.Course.Commands.InsertCourse;
 using UMS.Application.Entities.Course.Queries.GetCourses;
