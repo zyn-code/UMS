@@ -25,7 +25,7 @@ using UMS.WebAPI;
 static IEdmModel GetEdmModel()
 {
     ODataConventionModelBuilder builder = new();
-    builder.EntitySet<User>("Users");
+    builder.EntitySet<Role>("Roles");
     return builder.GetEdmModel();
 }
 
@@ -103,8 +103,6 @@ builder.Services.AddControllers().AddOData(opt => opt.AddRouteComponents("v1", G
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new() { Title = "UMS", Version = "v1" });
-    //SignalR
-    c.AddSignalRSwaggerGen();
 });
 
 //connection string 
@@ -121,7 +119,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ODataTutorial v1"));
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "UMS v1"));
 }
 
 
