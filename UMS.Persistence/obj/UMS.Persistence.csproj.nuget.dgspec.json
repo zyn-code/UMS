@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Persistence\\UMS.Persistence.csproj": {}
+    "C:\\Users\\Ziad\\Ums\\UMS.Persistence\\UMS.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj": {
+    "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj",
         "projectName": "UMS.Domain",
-        "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj",
-        "packagesPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj",
+        "packagesPath": "C:\\Users\\Ziad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ziad\\Ums\\UMS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC.LAPTOP-C29OTAM2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Ziad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -72,32 +70,30 @@
         }
       }
     },
-    "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Persistence\\UMS.Persistence.csproj": {
+    "C:\\Users\\Ziad\\Ums\\UMS.Persistence\\UMS.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Persistence\\UMS.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Ziad\\Ums\\UMS.Persistence\\UMS.Persistence.csproj",
         "projectName": "UMS.Persistence",
-        "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Persistence\\UMS.Persistence.csproj",
-        "packagesPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Persistence\\UMS.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Ziad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ziad\\Ums\\UMS.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC.LAPTOP-C29OTAM2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Ziad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj": {
-                "projectPath": "C:\\Users\\PC.LAPTOP-C29OTAM2\\RiderProjects\\UMS\\UMS.Domain\\UMS.Domain.csproj"
+              "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ziad\\Ums\\UMS.Domain\\UMS.Domain.csproj"
               }
             }
           }
@@ -112,6 +108,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.AspNet.WebApi.OData": {
               "target": "Package",
               "version": "[5.7.0, )"
